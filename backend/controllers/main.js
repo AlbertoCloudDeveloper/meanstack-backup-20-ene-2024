@@ -1,7 +1,7 @@
 // main controller
 
 module.exports.home = function(req, res){
-    res.render('index', { title: 'MEAN Stack Agency Dev2' });
+    res.render('index', { title: 'MEAN Stack Agency' });
 }
 
 module.exports.about = function(req, res){
